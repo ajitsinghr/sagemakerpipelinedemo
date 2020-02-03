@@ -23,7 +23,7 @@ Parameters:
     Type: String
   SageMakerRole:
     Description: Name of SageMaker role
-    MaxLength: '64'
+    MaxLength: '128'
     MinLength: '1'
     Type: String
   Timestamp:
