@@ -15,7 +15,7 @@ stack_name = sys.argv[3]
 commit_id = sys.argv[4]
 commit_id = commit_id[0:7]
 
-training_image = '811284229777.dkr.ecr.us-east-1.amazonaws.com/image-classification:latest'
+training_image = '685385470294.dkr.ecr.eu-west-1.amazonaws.com/image-classification:1'
 timestamp = time.strftime('%Y-%m-%d-%H-%M-%S', time.gmtime())
 
 def download(url):

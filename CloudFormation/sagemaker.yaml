@@ -39,7 +39,7 @@ Resources:
       ExecutionRoleArn: !Sub ${SageMakerRole}
       PrimaryContainer:
         ModelDataUrl: !Sub s3://${BucketName}/${ParentStackName}-${CommitID}-${Timestamp}/output/model.tar.gz
-        Image: 811284229777.dkr.ecr.us-east-1.amazonaws.com/image-classification:latest
+        Image: 685385470294.dkr.ecr.eu-west-1.amazonaws.com/image-classification:1
   Endpoint:
     Type: "AWS::SageMaker::Endpoint"
     DependsOn: EndpointConfig
